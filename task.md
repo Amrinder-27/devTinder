@@ -1,0 +1,7 @@
+- create a repo
+- Initialize the project with npm init
+- check diff bet with package and lock.json
+- install express
+- create a server
+- write request handlers /
+- install nodemon to automatically run the server
