@@ -5,3 +5,6 @@
 - create a server
 - write request handlers /
 - install nodemon to automatically run the server
+- multiple route handlers
+- next()
+- play with next with res array.
