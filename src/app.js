@@ -36,7 +36,7 @@ app.use('/user', (req, res, next)=>{
 app.use('/admin', (req, res, next)=>{
     console.log('admin auth is getting checked!!')
     const token = 'xyz';
-    const isAuth = token === 'xyz2'
+    const isAuth = token === 'xyz'
     if(!isAuth){
        
       res.status(401).send('Not Authorized person')
