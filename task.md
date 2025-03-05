@@ -5,6 +5,7 @@
 - create a server
 - write request handlers /
 - install nodemon to automatically run the server
-- multiple route handlers
+- multiple route handlers and middleware
+- how middleware works behind the scenes >> its just route handler sending the response to the client and response send by the middle ware, modify the request and resposne, check wthere to retain the func or not or abort.
 - next()
 - play with next with res array.
